@@ -1,0 +1,17 @@
+{
+  "name": "fibonacci-d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "generate-fibonacci": "node ./generateFibonacciFile.js",
+    "web": "http-server ./static --port 8898"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "jest": "^27.0.4"
+  }
+}
